@@ -47,12 +47,10 @@ public class ParserApk {
 
     private void scanDirLI(File dir, int flags, int scanMode, long currentTime) {
         if(isdirExist(dir.toString()) == false){
-
             return ;
         }
         String[] files = dir.list();
         if (files == null) {
-
             return;
         }
 
@@ -60,11 +58,16 @@ public class ParserApk {
         for(int i = 0; i < files.length; i++){
             File file = new File(dir, files[i]);
 
-            if(!isApkFilename(files[i])){
-                //if the file is not the apk file, ignore it
-                continue;
+            if(file.isDirectory()){
+                scanDirLI(file, flags, scanMode, currentTime);
+            }else{
+                if(!isApkFilename(files[i])){
+                    //if the file is not the apk file, ignore it
+                    continue;
+                }
+                scanPackageLI(file, flags, scanMode, currentTime);
             }
-            scanPackageLI(file, flags, scanMode, currentTime);
+
         }
     }
 

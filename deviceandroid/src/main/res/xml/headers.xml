@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:id="@+id/deviceInfo"
+        android:title="@string/device_info"
+        android:fragment="sean.com.deviceandroid.DeviceInfoFragment"/>
+
+    <header android:id="@+id/scan_apks"
+        android:title="@string/scan_apks"
+        android:fragment="sean.com.apkscan.ApkListFragment"/>
+
+    <header android:id="@+id/server_api"
+        android:title="@string/server_api"
+        android:fragment="sean.com.sean.com.server.ServerAPIFragment"/>
+
+</preference-headers>

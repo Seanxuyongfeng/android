@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">设备助手</string>
+    <string name="device_info">设备信息</string>
+    <string name="android_version">Android 版本</string>
+    <string name="android_api_level">Android API Level</string>
+    <string name="lcd_density">屏幕密度</string>
+    <string name="screen_size">分辨率</string>
+    <string name="phonenumber">手机号码</string>
+    <string name="kernel_version">内核版本</string>
+    <string name="android_brand">品牌</string>
+    <string name="battery_level">电池电量</string>
+    <string name="imei">IMEI</string>
+    <string name="ram">RAM</string>
+    <string name="rom">ROM</string>
+    <string name="sdcard">存储卡</string>
+    <string name="core_number">核心</string>
+
+    <!--apk list-->
+    <string name="scan_apks">应用安装</string>
+    <string name="state_installed">已安装</string>
+    <string name="state_update">可更新</string>
+    <string name="state_uninstalled">未安装</string>
+    <string name="sd_card_not_exit">未装入SD卡</string>
+    <string name="empty_folder">(空文件夹)</string>
+    <string name="unkown">未知应用</string>
+
+    <string name="passwd_regular">_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="server_api">服务器接口</string>
+
+    <string name="tip_password_none">密码不能为空</string>
+    <string name="tip_username_none">用户名不能为空</string>
+    <string name="msg_error_accountname">请输入正确的手机号码或邮箱地址</string>
+    <string name="network_wrong_text">网络链接错误，请查看网络设置。</string>
+
+    <!--USERINFO-->
+    <string name="userinfo">用户信息</string>
+    <string name="username">账号</string>
+    <string name="age">年龄</string>
+    <string name="nickname">昵称</string>
+    <string name="birthday">生日</string>
+
+
+</resources>

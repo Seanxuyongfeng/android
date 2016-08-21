@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:key="android_version_release"
+        android:title="@string/android_version"/>
+
+    <Preference android:key="android_version_sdk"
+        android:title="@string/android_api_level"/>
+
+    <Preference android:key="android_lcd_density"
+        android:title="@string/lcd_density"/>
+
+    <Preference android:key="android_brand"
+        android:title="@string/android_brand"/>
+
+    <Preference android:key="ram"
+        android:title="@string/ram"/>
+
+    <Preference android:key="rom"
+        android:title="@string/rom"/>
+
+    <Preference android:key="sdcard"
+        android:title="@string/sdcard"/>
+
+    <Preference android:key="kernel_version"
+        android:title="@string/kernel_version"/>
+
+    <Preference android:key="phonenumber"
+        android:title="@string/phonenumber"/>
+
+    <Preference android:key="imei"
+        android:title="@string/imei"/>
+
+</PreferenceScreen>

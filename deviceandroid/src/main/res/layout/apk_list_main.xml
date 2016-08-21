@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <GridView
+        android:id="@+id/applist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="2"
+        android:horizontalSpacing = "3dip"
+        android:duplicateParentState="true"
+        android:verticalSpacing = "3dip"
+        android:background="@color/apk_list_background" />
+
+    <TextView
+        android:id="@+id/textToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sd_card_not_exit"
+        android:visibility="gone"
+        android:textSize="25sp" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_item_selector" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/apkicon"
+            android:layout_width="60dip"
+            android:layout_height="50dip" />
+
+        <TextView
+            android:id="@+id/apkname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_toRightOf="@id/apkicon"
+            android:textColor="@color/itemtitle"
+            android:text="@string/unkown"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/apkstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:textColor="@color/state"
+        android:text="@string/state_uninstalled"/>
+</LinearLayout>

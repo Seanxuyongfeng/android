@@ -56,6 +56,9 @@ public class HttpOperation {
             HttpClient httpClient = new DefaultHttpClient();
             httpClient.getParams().setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, 10 * 1000);
             httpClient.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 10 * 1000);
+            if(DebugUtils.DEBUG){
+                DebugUtils.i(TAG, "request to : " + url);
+            }
             HttpResponse httpResponse = httpClient.execute(post);
             if(DebugUtils.DEBUG){
                 DebugUtils.i(TAG, "request resultCode : " + httpResponse.getStatusLine().getStatusCode());
@@ -69,6 +72,6 @@ public class HttpOperation {
         }finally{
 
         }
-        return null;
+        return "";
     }
 }

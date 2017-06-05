@@ -53,11 +53,11 @@ public class RegisterFragment extends PreferenceFragment {
                     return;
                 }
                 final Map<String, String> userParams = new HashMap<String, String>();
-                userParams.put("username", username);
-                userParams.put("password", username);
-                userParams.put("age", age);
-                userParams.put("nickname", nickName);
-                userParams.put("birthday", birthday);
+                userParams.put(Constants.JSON_USERNAME, username);
+                userParams.put(Constants.JSON_PWD, username);
+                userParams.put(Constants.JSON_AGE, age);
+                userParams.put(Constants.JSON_NICKNAME, nickName);
+                userParams.put(Constants.JSON_BIRTHDAY, birthday);
                 new UserRegister(userParams).execute();
             }
 

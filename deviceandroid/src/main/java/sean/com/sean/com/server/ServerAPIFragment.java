@@ -63,10 +63,7 @@ public class ServerAPIFragment extends PreferenceFragment {
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //hanleRegister();
                 Bundle args = new Bundle();
-
                 FragmentUtils.startPreferencePanel(getActivity(), RegisterFragment.class.getName(),
                         args, 0, RegisterFragment.class.getName(), null, 0);
             }
@@ -75,13 +72,14 @@ public class ServerAPIFragment extends PreferenceFragment {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mTextView.setText("暂不支持登录接口");
+                //mTextView.setText("暂不支持登录接口");
+                login();
             }
         });
         return apiRoot;
     }
 
-    private void hanleRegister(){
+    private void login(){
         String username = mUsernameEdit.getText().toString().trim();
         String password = mPasswordEdit.getText().toString().trim();
         if(TextUtils.isEmpty(username)){
@@ -101,18 +99,18 @@ public class ServerAPIFragment extends PreferenceFragment {
             return;
         }
 
-        if(Utils.getAccountType(username) == Account.Type.ACCOUNT_TYPE_INVALIDE){
+/*        if(Utils.getAccountType(username) == Account.Type.ACCOUNT_TYPE_INVALIDE){
             Utils.showMessage(getActivity(), R.string.msg_error_accountname);
             return;
-        }
-        new UserRegister(username, password).execute();
+        }*/
+        new UserLogin(username, password).execute();
     }
 
-    private class UserRegister extends AsyncTask<Void, Void, String> {
+    private class UserLogin extends AsyncTask<Void, Void, String> {
         private String mUserName;
         private String mPassword;
 
-        public UserRegister(String userName, String pwd) {
+        public UserLogin(String userName, String pwd) {
             mUserName = userName;
             mPassword = pwd;
         }
@@ -124,7 +122,7 @@ public class ServerAPIFragment extends PreferenceFragment {
             userParams.put("password", mPassword);
             String result = null;
             try {
-                result = HttpOperation.postRequest(Constants.USER_REGISTER, userParams);
+                result = HttpOperation.postRequest(Constants.USER_GETINFO, userParams);
                 DebugUtils.i(TAG, "result : " + result);
                 JSONObject jsonObject = new JSONObject(result);
                 return jsonObject.toString();

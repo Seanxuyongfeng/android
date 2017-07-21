@@ -1,0 +1,57 @@
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file /tmp/mogutalk-gc.log due to No such file or directory
+
+10:11:17,806 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+10:11:17,806 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:11:17,806 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/D:/TTServer-master/java/10400/mogutalk-business-0.0.1-SNAPSHOT.jar!/logback.xml]
+10:11:17,814 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@500b6585 - URL [jar:file:/D:/TTServer-master/java/10400/mogutalk-business-0.0.1-SNAPSHOT.jar!/logback.xml] is not of type file
+10:11:17,930 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:11:17,948 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+10:11:17,949 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+10:11:17,982 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:11:18,015 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:11:18,016 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMMON-INFO]
+10:11:18,028 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+10:11:18,029 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern logs/%d{yyyyMMdd}/mogutalk.log for the active file
+10:11:18,031 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern 'logs/%d{yyyyMMdd}/mogutalk.log'.
+10:11:18,031 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:11:18,033 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed Jul 19 10:11:18 CST 2017
+10:11:18,033 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:11:18,034 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[COMMON-INFO] - Active log file name: logs/mogutalk.log
+10:11:18,034 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[COMMON-INFO] - File property is set to [logs/mogutalk.log]
+10:11:18,036 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:11:18,036 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMMON-ERROR]
+10:11:18,037 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+10:11:18,037 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern logs/%d{yyyyMMdd}/mogutalk-error.log for the active file
+10:11:18,037 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern 'logs/%d{yyyyMMdd}/mogutalk-error.log'.
+10:11:18,037 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:11:18,037 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed Jul 19 10:11:18 CST 2017
+10:11:18,037 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:11:18,038 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[COMMON-ERROR] - Active log file name: logs/mogutalk-error.log
+10:11:18,038 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[COMMON-ERROR] - File property is set to [logs/mogutalk-error.log]
+10:11:18,039 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:11:18,039 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [NONE-FILTER]
+10:11:18,039 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+10:11:18,040 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern logs/%d{yyyyMMdd}/mogutalk-nonefiltered.log for the active file
+10:11:18,040 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern 'logs/%d{yyyyMMdd}/mogutalk-nonefiltered.log'.
+10:11:18,040 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:11:18,040 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed Jul 19 10:11:18 CST 2017
+10:11:18,040 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:11:18,042 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[NONE-FILTER] - Active log file name: logs/mogutalk-nonefiltered.log
+10:11:18,042 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[NONE-FILTER] - File property is set to [logs/mogutalk-nonefiltered.log]
+10:11:18,042 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:11:18,042 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONNECTION-KEEP-ALIVE]
+10:11:18,043 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+10:11:18,043 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern logs/%d{yyyyMMdd}/mogutalk-connection.log for the active file
+10:11:18,044 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern 'logs/%d{yyyyMMdd}/mogutalk-connection.log'.
+10:11:18,044 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:11:18,044 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed Jul 19 10:11:18 CST 2017
+10:11:18,044 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:11:18,045 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CONNECTION-KEEP-ALIVE] - Active log file name: logs/mogutalk-connection.log
+10:11:18,045 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CONNECTION-KEEP-ALIVE] - File property is set to [logs/mogutalk-connection.log]
+10:11:18,046 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+10:11:18,047 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Missing appender ref attribute in <appender-ref> tag.
+10:11:18,047 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMMON-INFO] to Logger[ROOT]
+10:11:18,057 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMMON-ERROR] to Logger[ROOT]
+10:11:18,057 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONNECTION-KEEP-ALIVE] to Logger[ROOT]
+10:11:18,057 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [NONE-FILTER] to Logger[ROOT]
+

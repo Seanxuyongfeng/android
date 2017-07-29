@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:background="@drawable/image_widget_shopping"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="53dp"
+        android:background="@drawable/ic_shopping_icon"
+        android:id="@+id/btn_re"
+        />
+     <FrameLayout
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:id="@+id/text_start"
+            android:gravity="center_horizontal"
+            />
+    </FrameLayout>
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        >
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@drawable/mickey_cate_scrollbar_highlight"
+        android:scrollbarTrackVertical="@drawable/mickey_cate_scrollbar_bg"
+        
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarSize="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="35dp"
+        android:id="@android:id/list"
+        ></ListView>
+       </FrameLayout> 
+        
+
+</RelativeLayout>

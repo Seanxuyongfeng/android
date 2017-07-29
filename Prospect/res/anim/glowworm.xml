@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:apk="http://schemas.android.com/apk/res/android" 
+    apk:oneshot="false">
+    <item apk:drawable="@drawable/glowworm01" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm02" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm03" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm04" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm05" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm06" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm07" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm08" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm09" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm10" apk:duration="200" />
+    <item apk:drawable="@drawable/glowworm11" apk:duration="200" />                    
+</animation-list>

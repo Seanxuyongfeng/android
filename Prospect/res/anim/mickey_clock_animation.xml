@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:apk="http://schemas.android.com/apk/res/android" 
+    apk:oneshot="false">
+    <item apk:drawable="@drawable/mickey_animation_1" apk:duration="500" />
+    <item apk:drawable="@drawable/mickey_animation_2" apk:duration="500" />
+    <item apk:drawable="@drawable/mickey_animation_3" apk:duration="500" />
+    <item apk:drawable="@drawable/mickey_animation_4" apk:duration="500" />
+    <item apk:drawable="@drawable/mickey_animation_5" apk:duration="500" />
+</animation-list>

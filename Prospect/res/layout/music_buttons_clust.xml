@@ -1,0 +1,37 @@
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginTop="340dp"
+		android:gravity="center_horizontal"
+	    android:orientation="horizontal">
+    
+    	<Button  android:id="@+id/shared_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:background="@drawable/btn_download_nor"/>
+    	
+    	<Button  android:id="@+id/previous_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="21dp"
+		    android:background="@drawable/button_previous_selector"/>
+    	
+    	<Button  android:id="@+id/play_pause_button"
+    	    android:layout_width="60dp"
+	    	android:layout_height="49dp"
+	    	android:layout_marginLeft="21dp"
+	    	android:background="@drawable/button_play_selector"/>
+    	
+    	<Button  android:id="@+id/next_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="21dp"
+	    	android:background="@drawable/button_next_selector"/>
+    	
+    	<Button  android:id="@+id/repeat_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="21dp"
+	    	android:background="@drawable/button_ringtone_selector"/>    	    	    	    	
+	</LinearLayout>

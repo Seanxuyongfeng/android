@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.prospect.TabWallpapers 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.prospect" 
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_content_wallpaper_height"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    launcher:pageLayoutWidthGap="@dimen/tab_wallpaper_pageLayoutWidthGap"
+    android:background="@drawable/content_background" />
+
+   
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_icon_size">48dp</dimen>
+<!-- Workspace cell size -->
+    <dimen name="workspace_cell_width_port">80dp</dimen>
+    <dimen name="workspace_cell_height_port">80dp</dimen>
+    <dimen name="workspace_width_gap_port">0dp</dimen>
+    <!--  <dimen name="workspace_height_gap_port">0dp</dimen>-->
+    <dimen name="workspace_height_gap_port">9dp</dimen>
+    <dimen name="tab_content_widgets_height">141dip</dimen>
+    <dimen name="tab_content_wallpaper_height">90dip</dimen>
+
+    <dimen name="tab_wallpaper_pageLayoutWidthGap">3dip</dimen>
+</resources>

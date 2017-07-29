@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView android:id="@+id/clock_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="73dp"
+        android:scaleType="centerInside"
+        android:background="@anim/mickey_clock_animation"/>
+
+	<com.android.prospect.MickeyAnalogClock 
+	    android:id="@+id/mickey_analog_appwidget"
+	    dc:mickeyClockBg="@drawable/mickey_analog_clock_bg"
+	    dc:mickeyHandHour ="@drawable/mickey_analog_clock_hour"
+	    dc:mickeyHandMinute="@drawable/mickey_analog_clock_minutes"
+	    dc:mickeyHandSecond1="@drawable/mickey_analog_clock_seconds"
+	    dc:mickeyHandSecond2="@drawable/mickey_analog_clock_seconds"
+	    dc:mickeyHandSecondNumber="1"
+	    dc:mickeyAnalogClockX="240"
+	    dc:mickeyAnalogClockY="237"
+	    dc:mickeyDateWeekX="117"
+	    dc:mickeyDateWeekY="317"
+	    dc:mickeyDigitalClockX="0"
+	    dc:mickeyDigitalClockY="0"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+
+</FrameLayout>

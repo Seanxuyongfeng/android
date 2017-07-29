@@ -1,0 +1,6 @@
+<resources>
+    <integer name="hotseat_item_scale_percentage">100</integer>
+    <integer name="workspace_offset_transY">150</integer>
+
+    <integer name="pageindicator_width">22</integer>
+</resources>

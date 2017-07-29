@@ -1,0 +1,84 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+   	
+	    <ImageView android:id="@+id/hour1"
+	        android:layout_width="46dp"
+	        android:layout_height="66dp"
+	        android:scaleType="centerInside"
+	        android:layout_x="148px"
+	        android:layout_y="175px"
+	        android:src="@drawable/hour_0"/>
+	    
+	    <ImageView android:id="@+id/hour2"
+	        android:layout_width="46dp"
+	        android:layout_height="66dp"
+	        android:scaleType="centerInside"
+	        android:layout_x="238px"
+	        android:layout_y="175px"
+	        android:src="@drawable/hour_0"/>  
+
+	    
+     <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:src="@drawable/time_sep"
+        android:scaleType="centerInside"
+        android:layout_x="330px"
+        android:layout_y="210px"/>       
+        
+     <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:src="@drawable/time_sep"
+        android:scaleType="centerInside"
+        android:layout_x="330px"
+        android:layout_y="248px"/>       
+
+
+		     <ImageView android:id="@+id/minute1"
+		        android:layout_width="28dp"
+		        android:layout_height="43dp"
+		        android:scaleType="centerInside"
+		        android:layout_x="390px"
+		        android:layout_y="175px"
+		        android:src="@drawable/minute_0"/>       
+		        
+		     <ImageView android:id="@+id/minute2"
+		        android:layout_width="28dp"
+		        android:layout_height="43dp"
+		        android:scaleType="centerInside"
+		        android:layout_x="448px"
+		        android:layout_y="175px" 
+		        android:src="@drawable/minute_0"/>   
+		        
+
+			     <ImageView android:id="@+id/am_pm"
+			        android:layout_width="33dp"
+			        android:layout_height="17dp"
+			        android:scaleType="centerInside"
+			        android:src="@drawable/am"
+			        android:layout_x="504px"
+			        android:layout_y="175px"/>
+			     
+			     <ImageView android:id="@+id/days"
+			        android:layout_width="33dp"
+			        android:layout_height="17dp" 
+			        android:scaleType="centerInside"
+			        android:src="@drawable/fri"
+			        android:layout_x="504px"
+			        android:layout_y="227px"/>		          	    
+
+    	
+ 	    <TextView android:id="@+id/date"
+ 	         android:layout_width="92dp"
+        	android:layout_height="23dp"
+        	android:text="2013.12.11"
+        	android:layout_x="388px"
+        	android:layout_y="260px"
+        	android:textSize="18sp"
+        	android:textColor="#ffffffff"/>
+
+    
+</AbsoluteLayout>

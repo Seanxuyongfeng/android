@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<toppackages xmlns:launcher="http://schemas.android.com/apk/res/com.android.prospect"> 
+	<app
+        launcher:topPackageName="com.android.contacts"
+        launcher:topClassName="com.android.contacts.activities.DialtactsActivity"
+        launcher:topOrder="0"
+ 	/>
+
+
+	<!--Contacts-->
+	<app
+        launcher:topPackageName="com.android.contacts"
+        launcher:topClassName="com.android.contacts.activities.PeopleActivity"
+        launcher:topOrder="1"
+ 	/>	
+	<!--Mms-->
+	<app
+        launcher:topPackageName="com.android.mms"
+        launcher:topClassName="com.android.mms.ui.BootActivity"
+        launcher:topOrder="2"
+ 	/>	
+	<!--Video call-->
+	<app
+        launcher:topPackageName="com.mediatek.vtdialer"
+        launcher:topClassName="com.mediatek.vtdialer.OP01VTDialerActivity"
+        launcher:topOrder="3"
+ 	/>		
+	
+	<!--Calculator-->
+	<app
+        launcher:topPackageName="com.android.calculator2"
+        launcher:topClassName="com.android.calculator2.Calculator"
+        launcher:topOrder="4"
+ 	/>		
+	<!--Notebook-->
+	<app
+        launcher:topPackageName="com.mediatek.notebook"
+        launcher:topClassName="com.mediatek.notebook.NotesList"
+        launcher:topOrder="5"
+ 	/>
+	<!--todos-->
+	<app
+        launcher:topPackageName="com.mediatek.todos"
+        launcher:topClassName="com.mediatek.todos.TodosActivity"
+        launcher:topOrder="6"
+ 	/>
+	<!--Calendar-->
+	<app
+        launcher:topPackageName="com.android.calendar"
+        launcher:topClassName="com.android.calendar.AllInOneActivity"
+        launcher:topOrder="7"
+ 	/>	
+	<!--Desklock-->
+	<app
+        launcher:topPackageName="com.android.deskclock"
+        launcher:topClassName="com.android.deskclock.DeskClock"
+        launcher:topOrder="8"
+ 	/>	
+
+	
+	<!--Fmradio-->
+	<app
+        launcher:topPackageName="com.mediatek.FMRadio"
+        launcher:topClassName="com.mediatek.FMRadio.FMRadioActivity"
+        launcher:topOrder="9"
+ 	/>	
+	<!--SoundRecorder-->
+	<app
+        launcher:topPackageName="com.android.soundrecorder"
+        launcher:topClassName="com.android.soundrecorder.SoundRecorder"
+        launcher:topOrder="10"
+ 	/>		
+	<!--Music-->
+	<app
+        launcher:topPackageName="com.android.music"
+        launcher:topClassName="com.android.music.MusicBrowserActivity"
+        launcher:topOrder="11"
+ 	/>		
+	<!--Gallery-->
+	<app
+        launcher:topPackageName="com.android.gallery3d"
+        launcher:topClassName="com.android.gallery3d.app.Gallery"
+        launcher:topOrder="12"
+ 	/>		
+	<!--Camera-->
+	<app
+        launcher:topPackageName="com.android.gallery3d"
+        launcher:topClassName="com.android.camera.CameraLauncher"
+        launcher:topOrder="13"
+ 	/>		
+	<!--VideoPlayer-->
+	<app
+        launcher:topPackageName="com.mediatek.videoplayer"
+        launcher:topClassName="com.mediatek.videoplayer.MovieListActivity"
+        launcher:topOrder="14"
+ 	/>		
+	<!--Settings-->
+	<app
+        launcher:topPackageName="com.android.settings"
+        launcher:topClassName="com.android.settings.GridSettings"
+        launcher:topOrder="15"
+ 	/>	
+	<!--File Manager-->
+	<app
+        launcher:topPackageName="com.mediatek.filemanager"
+        launcher:topClassName="com.mediatek.filemanager.FileManagerOperationActivity"
+        launcher:topOrder="16"
+ 	/>	
+	<!--ShanDianQiu-->
+    <app
+        launcher:topPackageName="com.dexin.game"
+        launcher:topClassName="com.dexin.game.MobileDeXinGame1Activity"
+        launcher:topOrder="20"
+ 	/>
+ 	<!--Disney onLine-->
+    <app
+        launcher:topPackageName="com.mospec.dianeyonline"
+        launcher:topClassName="com.mospec.dianeyonline.MainActivity"
+        launcher:topOrder="21"
+ 	/> 
+	<!--EYuXiaoWanPi-->	
+ 	<app
+        launcher:topPackageName="com.disney.chukong.WMW"
+        launcher:topClassName="com.disney.chukong.WMW.WMWActivity"
+        launcher:topOrder="22"
+ 	/>
+	
+	<!--Monster run
+	<app
+        launcher:topPackageName="com.disney.monstersincrun_goo"
+        launcher:topClassName="com.apportable.activity.VerdeActivity"
+        launcher:topOrder="23"
+ 	/>
+	-->
+ 	<!--MiQiXiaoWanPi-->
+ 	<app
+        launcher:topPackageName="com.disney.wheremymickey"
+        launcher:topClassName="com.disney.Mickey_Google.ActivitySkuGoogle"
+        launcher:topOrder="23"
+ 	/>  
+	<!--XiaoHuaJia-->
+ 	<app
+        launcher:topPackageName="com.xinqihd.android.disneymickeypainting"
+        launcher:topClassName="com.xinqihd.android.disneymickeypainting.Main"
+        launcher:topOrder="24"
+ 	/>
+
+	<!--MengHuanDanGaoDian-->
+	<app
+        launcher:topPackageName="air.com.mfp.caketest"
+        launcher:topClassName="air.com.mfp.caketest.AppEntry"
+        launcher:topOrder="25"
+ 	/>
+ 	<!--MoJingZhuiZong-->
+ 	<app
+        launcher:topPackageName="com.disney.troz"
+        launcher:topClassName="com.disney.troz.TempleRunOzActivity"
+        launcher:topOrder="26"
+ 	/>  	
+ 	<!--YaZuiShou-->
+ 	<app
+        launcher:topPackageName="com.disney.WMPCN"
+        launcher:topClassName="com.disney.WMPCN.WMWActivity"
+        launcher:topOrder="27"
+ 	/>  	
+	
+<!--
+ 	<app
+        launcher:topPackageName="com.aspire.mm"
+        launcher:topClassName="com.aspire.mm.app.HotSaleActivity"
+        launcher:topOrder="28"
+ 	/>  	
+-->
+</toppackages>
+

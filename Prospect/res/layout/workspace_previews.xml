@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.prospect.WorkspacePreview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/workspacePreview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.prospect.PreviewLayout
+        android:id="@+id/previews_container"  
+		android:layout_marginTop="40dip"
+		android:layout_marginLeft="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        android:layout_alignParentTop="true" />
+
+
+    <LinearLayout
+        android:id="@+id/delete_preview_zone"
+        android:layout_width="match_parent"
+        android:layout_height="121dip"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/previews_container"
+        android:background="@drawable/delete_zone_normal"
+		android:layout_marginTop="12dp"
+        android:gravity="center" />
+
+</com.android.prospect.WorkspacePreview>

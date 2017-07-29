@@ -1,0 +1,121 @@
+<com.android.prospect.MusicListLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+   <FrameLayout 
+        android:layout_width="345dp"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/music_list_background">
+   <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp" >
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="247dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:padding="0dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:scrollbarSize="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="45dp"
+        android:dividerHeight="10dp"
+        android:id="@android:id/list" >
+        <!--         android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="45dp" -->
+    </ListView>
+    </FrameLayout> 
+        
+    <FrameLayout
+        android:id="@+id/progress_bar"
+        android:layout_marginTop="204dp"
+        android:layout_width="match_parent"
+        android:layout_height="123dp">
+    
+    <ImageView android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@anim/glowworm"/>
+    
+    <SeekBar android:id="@android:id/progress"
+        android:background="#00f5a5a5"
+        android:layout_width="232dp"
+        android:layout_height="20dip"
+        android:layout_marginTop="87dp"
+        android:layout_marginLeft="45dp"
+        android:progressDrawable="@drawable/seekbar_img" 
+        android:thumb="@drawable/seek_thumb"
+        android:thumbOffset="0dp"
+        android:paddingLeft="0dp" />
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:orientation="horizontal">
+		    
+        <TextView android:id="@+id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="#ffffffff"/>
+        
+        <TextView android:id="@+id/total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="04:00"
+            android:textColor="#ffffffff"/>
+    </LinearLayout>        
+    </FrameLayout>   
+   <!--  
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginTop="290dp"
+		android:gravity="center_horizontal"
+	    android:orientation="horizontal">
+    
+    	<Button  android:id="@+id/shared_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:background="@drawable/share_selector"/>
+    	
+    	<Button  android:id="@+id/previous_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="15dp"
+		    android:background="@drawable/button_previous_selector"/>
+    	
+    	<Button  android:id="@+id/play_pause_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="15dp"
+	    	android:background="@drawable/button_play_selector"/>
+    	<Button  android:id="@+id/next_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="15dp"
+	    	android:background="@drawable/button_next_selector"/>
+    	
+    	<Button  android:id="@+id/repeat_button"
+    	    android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_marginLeft="15dp"
+	    	android:background="@drawable/button_repeat_selector"/>    	    	    	    	
+	</LinearLayout>
+	-->
+		<include layout="@layout/music_buttons_clust" />
+		<ImageView android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:layout_marginLeft="133dp"
+		    android:layout_marginTop="340dp"
+		    android:scaleType="centerInside"
+		    android:src="@drawable/music_play_background"/>
+</FrameLayout> 		
+</com.android.prospect.MusicListLayout>

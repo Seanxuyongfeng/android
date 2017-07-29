@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.prospect.PagedViewWidget
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="87dip"
+    android:layout_height="111dip"
+    android:orientation="vertical"
+    android:background="@drawable/focusable_view_bg"
+    android:focusable="true">
+
+    <com.android.prospect.PagedViewWidgetImageView
+        android:id="@+id/widget_preview"
+        android:layout_width="match_parent"
+        android:layout_height="85dip"
+        android:scaleType="centerInside"
+        android:background="@drawable/widget_container_holo" />
+
+   <!-- The name of the widget. -->
+   <TextView android:id="@+id/widget_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dip"
+       android:gravity="center_horizontal"
+       android:singleLine="true"
+       android:ellipsize="marquee"
+       android:fadingEdge="horizontal"
+       android:textColor="#FFFFFFFF"
+       android:textSize="13sp" />
+  
+</com.android.prospect.PagedViewWidget>

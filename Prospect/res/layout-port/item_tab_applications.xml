@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.android.prospect.MTKAppIcon
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/application_icon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <com.android.prospect.PagedViewIcon
+	    style="@style/WorkspaceIcon.Portrait.AppsCustomize"	
+	    android:id="@+id/app_customize_application_icon"
+ 	    android:layout_width="match_parent" 
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"	
+       	    android:singleLine="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+	    android:focusable="true"
+	    android:scaleX=".9"
+	    android:scaleY=".9"
+	    android:background="@drawable/focusable_view_bg" />
+<!--
+    <TextView android:id="@+id/app_customize_unread" 
+    	style="@style/UnreadNumAppearance"
+		android:visibility="gone"
+		android:layout_marginTop="0dp" 
+		android:layout_marginRight="13dp"
+		android:layout_alignParentTop="true" 
+		android:layout_alignParentRight="true" />
+-->
+    
+    <ViewStub android:id="@+id/app_customize_unread_stub"
+    	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentRight="true" 
+	    android:layout_marginTop="0dp"
+	    android:layout_marginRight="13dp"
+		android:layout="@layout/mtk_unread_text_layout" 
+		/>
+</com.android.prospect.MTKAppIcon>

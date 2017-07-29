@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.android.prospect.PopTabLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"  >
+    
+    <FrameLayout android:id="@+id/content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    
+        <include android:id="@+id/layout_applications" layout="@layout/tab_content_applications" />
+        <include android:id="@+id/layout_widgets" layout="@layout/tab_content_widgets" />
+        <include android:id="@+id/layout_shortcuts" layout="@layout/tab_content_shortcuts" />
+        <include android:id="@+id/layout_wallpaper" layout="@layout/tab_content_wallpaper" />"
+	</FrameLayout>
+	
+	<LinearLayout android:id="@+id/tab"
+	    android:layout_width="match_parent"
+	    android:layout_height="76dip"
+	    android:layout_below="@id/content"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:background="@drawable/tab_background" >
+	   	
+		<Button android:id="@+id/item_application"
+			style="@style/buttonStyle"
+		    android:text="@string/group_applications"
+		    android:drawableTop="@drawable/tab_application"
+		    android:background="@drawable/button_selector" />   
+		    
+		<Button  android:id="@+id/item_widgets"
+			style="@style/buttonStyle"
+		    android:text="@string/group_widgets"
+		    android:drawableTop="@drawable/tab_widgets"
+		    android:background="@drawable/button_selector" />  	 
+		       
+		<Button android:id="@+id/item_shortcuts"
+			style="@style/buttonStyle"
+		    android:text="@string/group_shortcuts"
+		    android:drawableTop="@drawable/tab_shortcuts"
+		    android:background="@drawable/button_selector" /> 	
+		    
+		<Button android:id="@+id/item_wallpaper"
+			style="@style/buttonStyle"
+		    android:text="@string/group_wallpapers"
+		    android:drawableTop="@drawable/tab_wallpaper"
+		    android:background="@drawable/button_selector" /> 
+	</LinearLayout>
+
+</com.android.prospect.PopTabLayout>

@@ -1,0 +1,60 @@
+<com.android.prospect.TabShortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:gravity="center_vertical"
+    android:background="@drawable/content_background"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92.5dip"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+        
+        <com.android.prospect.PagedViewIcon android:id="@+id/contacts_shortcuts"
+			style="@style/scaleItemStyle"
+			android:clickable="true"		
+	    	android:text="@string/contacts_shortcuts"
+	    	android:drawableTop="@drawable/contacts_shortcuts"/> 
+	    	
+        <com.android.prospect.PagedViewIcon android:id="@+id/settings_shortcuts"
+			style="@style/scaleItemStyle"
+			android:clickable="true"		
+	    	android:text="@string/settings_shortcuts"
+	    	android:drawableTop="@drawable/settings_shortcuts"/> 
+	    	
+        <com.android.prospect.PagedViewIcon android:id="@+id/bookmark_shortcuts"
+			style="@style/scaleItemStyle"
+			android:clickable="true"		
+	    	android:text="@string/bookmark_shortcuts"
+	    	android:drawableTop="@drawable/bookmark_shortcuts"/>         
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92.5dip"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+        
+        <com.android.prospect.PagedViewIcon android:id="@+id/music_shortcuts"
+			style="@style/scaleItemStyle"
+			android:clickable="true"		
+	    	android:text="@string/music_shortcuts"
+	    	android:drawableTop="@drawable/music_shortcuts"/> 
+	    	
+        <com.android.prospect.PagedViewIcon android:id="@+id/call_shortcuts"
+			style="@style/scaleItemStyle"
+			android:clickable="true"		
+	    	android:text="@string/call_shortcuts"
+	    	android:drawableTop="@drawable/call_shortcuts"/> 
+	    	
+        <com.android.prospect.PagedViewIcon android:id="@+id/sms_shortcuts"
+			style="@style/scaleItemStyle"
+			android:clickable="true"		
+	    	android:text="@string/sms_shortcuts"
+	    	android:drawableTop="@drawable/sms_shortcuts"/>         
+    </LinearLayout>
+ 
+</com.android.prospect.TabShortcuts>

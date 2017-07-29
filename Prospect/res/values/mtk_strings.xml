@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="one_video_widget">Only one \"<xliff:g id="name" example="video player">%s</xliff:g>\" is allowed in Home screen.</string>
+	<string name="orientation">Cannot detect orientation.</string>	
+	<string name="scene">Choose scene</string>	
+	<string-array name="scene_name">
+        <item>Default</item>
+	    <item>Work</item>
+    </string-array>
+    <string name="state">Current</string>
+    <string name="scene_instructions">Set scene</string>
+
+    <!-- Shortcut Array -->
+    <!-- Install shortcut successfully -->
+    <string name="shortcut_array_installed"><xliff:g id="count" example="3">%1$d</xliff:g> shortcuts created.</string>
+    <!-- Install shortcut failed -->
+    <string name="shortcut_install_failed">Shortcut \"<xliff:g id="name" example="Xiaoming">%1$s</xliff:g>\" failed to create.</string>
+    <string name="shortcut_array_install_failed"><xliff:g id="count" example="3">%1$d</xliff:g> shortcuts failed to create.</string>
+    <!-- Failed reason: duplicate -->
+    <string name="shortcut_array_duplicate"><xliff:g id="count" example="3">%1$d</xliff:g> shortcuts already exist.</string>
+
+    <string name="widget_text">Welcome to Disney</string>
+    <string name="network_fail">Network connection failure ！！！</string>
+    <string name="widget_text_movice">Movice information</string>
+    <string name="widget_text_shopping">Shopping strip</string>
+    <string name="widget_text_picture">Beautiful picture zone </string>
+    <string name="widget_text_food">Beautiful food zone</string>
+    <string name="toast">Data failed to load, reloading...</string>
+    <string name="food_method">Production steps:</string>
+    <string name="food_nees">Need to be ready :</string>
+    <string name="title">Title：</string>
+    <string name="shopping_things">Title:</string>
+    <string name="start">Initialising...</string>
+    <string name="more">More Shopping</string>
+    <string name="more_mivie">More Information</string>
+    <string name="more_food">More Beautiful Food</string>
+    <string name="more_picture">More Beautiful Picture</string>
+    <string name="reload">Initialization failed, please open the network connections, reloading！</string>
+    <string name="inter_food_url">http://i.disney.cn/dcnapp/food/list/1/10/0</string>
+    <string name="inter_movie_url">http://i.disney.cn/dcnapp/movie/list/1/10/0</string>
+    <string name="inter_picture_url">http://i.disney.cn/dcnapp/picture/list/1/10/0</string>
+    <string name="inter_shopping_url">http://i.disney.cn/dcnapp/shopping/list/1/10/0</string>    
+</resources>

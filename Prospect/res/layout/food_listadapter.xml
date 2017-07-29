@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        
+        />
+    
+     <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_gravity="center_vertical"
+            android:textColor="#99ffff"
+            android:textSize="20sp"
+            
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            
+            />
+        <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="14sp"
+           android:text="@string/food_nees"
+           android:textColor="#99ffff"
+            />
+       
+         </LinearLayout>
+    </LinearLayout>
+     <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reqirment"
+            android:lineSpacingExtra="2dp"
+            android:textColor="#99ffff"
+            android:textSize="13sp"
+            
+            />
+      <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            />
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="16sp"
+           android:text="@string/food_method"
+           android:textColor="#99ffff"
+           
+           />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:textColor="#99ffff"
+            android:textSize="13sp"
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            />
+</LinearLayout>

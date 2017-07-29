@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentArgument</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_one">Item one</string>
+    <string name="item_two">Item two</string>
+    <string name="item_thr">Item threee</string>
+    
+    <string name="info_title">打开的应用</string>
+    <string name="info_gif">手势演示</string>
+    
+    <string name="gesture_c_title">c手势</string>
+    <string name="gesture_e_title">e手势</string>
+    <string name="gesture_w_title">w手势</string>
+    <string name="gesture_o_title">o手势</string>
+    <string name="gesture_m_title">m手势</string>
+    <string name="gesture_s_title">s手势</string>
+    <string name="gesture_z_title">z手势</string>
+    <string name="gesture_v_title">v手势</string>
+            
+</resources>

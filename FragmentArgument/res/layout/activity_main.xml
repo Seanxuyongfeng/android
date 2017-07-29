@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.fragmentargument"
+    android:title="@string/app_name" >
+    
+       
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_c"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        android:title="@string/gesture_c_title"
+        android:persistent="false"
+        settings:packageName="com.android.email"
+        settings:className="com.android.email.activity.Welcome"
+        settings:path="gif_file.gif"  />
+   
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_e"
+        android:title="@string/gesture_e_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.PeopleActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path=""/>
+
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_w"
+        android:title="@string/gesture_w_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.DialtactsActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path="gif_file.gif"/>    
+        
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_o"
+        android:title="@string/gesture_o_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.DialtactsActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path="gif_file.gif"/> 
+
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_m"
+        android:title="@string/gesture_m_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.DialtactsActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path="gif_file.gif"/>    
+        
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_s"
+        android:title="@string/gesture_m_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.DialtactsActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path="gif_file.gif"/> 
+        
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_z"
+        android:title="@string/gesture_z_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.DialtactsActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path="gif_file.gif"/>  
+        
+    <com.android.fragmentargument.MySwitchPreference
+        android:key="gesture_v"
+        android:title="@string/gesture_v_title"
+        settings:packageName="com.android.contacts"
+        settings:className="com.android.contacts.activities.DialtactsActivity"
+        android:fragment="com.android.fragmentargument.InfoFragment"
+        settings:path="gif_file.gif"/>      
+    
+</PreferenceScreen>  

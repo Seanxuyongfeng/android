@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="GesturesSettings">
+        <attr name="packageName" format="string"/>
+        <attr name="className" format="string" />
+        <attr name="path" format="string" />
+    </declare-styleable>
+
+</resources>
